@@ -1,0 +1,33 @@
+2)To print Unique characters from the given String
+
+def unique_values(str):
+    print("Unique Characters of the String:")
+    b=[]
+    for i in str:
+        if i not in b:
+            b.append(i)
+            print(i,end=",")
+unique_values(input("Enter the string:"))
+
+output:-
+
+Enter the string:hellohero
+Unique Characters of the String : 
+h,e,l,o,r,
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+a=input("Enter a String :")
+print("Unique characters:")
+b=[]
+for i in a:
+    if i not in b:
+        b.append(i)
+        print(i,end=",")
+        
+        
+ output:-
+ 
+Enter a String :hellohai
+Unique characters:
+h,e,l,o,a,i,
